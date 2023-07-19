@@ -1,0 +1,115 @@
+body {
+    width: 100%;
+    max-width: 1000px;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: white;
+  }
+
+  .background-image {
+    background-image: url("./images/1-unsplash1.png");
+    background-position: center;
+    background-size: cover;
+    height: 319px;
+  }
+
+  .logo-menu-top {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+  }
+
+  .logo-menu-bottom {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    margin-bottom: 15px;
+  }
+
+  .list-menu {
+    display: flex;
+    justify-content: flex-end;
+    min-height: 24px;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 14px 16px 0 0;
+    gap: 25px;
+    --bs-link-color-rgb: white;
+
+  }
+
+  h1 {
+    color: #F5F5F5;
+    font-family: Montserrat Alternates;
+    font-size: 85px;
+    font-weight: 800;
+    line-height: 85px;
+    /* 100% */
+    margin: -2px 0 0 15px;
+ }
+
+  h2 {
+    color: #F5F5F5;
+    font-size: 25px;
+    line-height: 31px;
+    /* 124% */
+    letter-spacing: 0.25px;
+    text-align: right;
+    margin-top: 50px;
+    margin-right: 13px;
+  }
+
+  .lead {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    /* 120% */
+    letter-spacing: 0.25px;
+    margin: 46px 137px 0 76px;
+  }
+
+  .text-content-pageup {
+    font-size: 18.526px;
+    font-weight: 400;
+    line-height: normal;
+    margin: 54px 137px 0 76px;
+  }
+
+  .kartochka-tovara {
+    margin-top: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .text-content-pageend {
+    font-size: 18.526px;
+    font-weight: 400;
+    line-height: normal;
+    margin: 42px 137px 0 76px;
+  }
+
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 73px;
+    margin-left: 1px;
+
+  }
+
+  address {
+    font-size: 18.526px;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 18px;
+
+  }
